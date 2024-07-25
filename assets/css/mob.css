@@ -1,0 +1,314 @@
+
+html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+}
+
+body {
+    background-color: #0a1622;
+    margin: 0;
+    width: 100vw;
+    height: 945px;
+    display: flex;
+    justify-content: center;
+    overflow-y: hidden;
+
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    display: block;
+}
+
+.mb-model {
+  
+    display: none;
+  }
+   
+
+  .header-mb {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center center;
+    position: absolute;
+    left: 5%;
+    top: 2%;
+    z-index: 4;
+    width: 90%;
+    align-items: center;
+    place-items: center;
+  }
+
+  .mb-bg-container {
+    position: relative;
+    background-image: url("../img/mb_bg_vv.jpg");
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+    justify-content: center;
+    width: 100vw;
+    height: calc(192vw * 2.39481);
+    max-width: 1080px;
+    max-height: 4950px;
+  }
+ 
+     /*content-wrapping SPIN Slots Sitess*/
+
+     .mobile-cwp_PP {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center center;
+        position: absolute;
+        left: 10%;
+        top: 13%;
+        z-index: 4;
+        width: 80%;
+        align-items: center;
+        place-items: center;
+      }
+    
+
+    .footer-Title {
+        position: relative;
+        font-size: 24px;
+        text-align: center;
+        font-size: 14px;
+        left: 0%;
+       top: 300px;
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    /*-----------------------------------*/
+     /*content-wrapping EGGC Slots Sitess*/
+
+     .content-wrapping_EGGC_mb {
+        position: relative;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(222, 234, 255, 0.6), rgba(11, 22, 34, 0.8));
+        padding: 10px;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-left: 10%; 
+        margin-right: 10%;
+        top: 43%; 
+        margin-bottom: 9%;
+        
+ 
+    }
+    
+    .eggc_web-logo_mb {
+        width: 70%;
+        object-fit: cover;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    .eggc_subtitle_mb {
+        margin-top: 5%;
+       
+        align-items: center;
+        object-fit: cover;
+      }
+
+      @font-face{
+        font-family: 'SUNFLOWER';
+        src: url('../fonts/SUNFLOWER.TTF') format(truetype);
+      }
+
+    .eggc_subtitle_2_mb{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family:'SUNFLOWER', sans-serif;
+        font-size: clamp(12px, 5vw, 26px);
+        
+        color: #f9f5ff;
+        line-height: 1.5;
+    }
+    .eggc_subtitle_3_mb{
+        margin-top: 0%;
+        font-family:'SUNFLOWER',sans-serif;
+        font-size: clamp(12px, 6vw, 32px);
+        color: #f9f5ff;
+        line-height: 1.5;
+        
+    }
+    .eggc_paragraph_mb{
+        margin-top: -8%;
+        font-family: 'SUNFLOWER',sans-serif;
+        font-size: 17px;
+        font-size: clamp(12px, 4vw, 16px);
+        color: #f9f5ff;
+        line-height: 1.9;
+    }
+
+    /**********SPIN************/
+
+    .content-wrapping_SPIN_mb {
+        position: relative;
+        text-align: center;
+        background: linear-gradient(180deg, rgba(222, 234, 255, 0.6), rgba(11, 22, 34, 0.8));
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-left: 10%; 
+        margin-right: 10%;
+        top: 43%; 
+        margin-bottom: 25%;
+        
+        
+    }    
+    .spin_web-logo_mb {
+        width: 60%;
+        margin-top: -4%;
+        margin-bottom: 6%;
+        object-fit: cover;
+        
+    }
+    .spin_subtitle_mb {
+        margin-top: -8%;
+        align-items: center;
+        object-fit: cover;
+      }
+
+      @font-face{
+        font-family: 'SUNFLOWER';
+        src: url('../fonts/SUNFLOWER.TTF') format(truetype);
+      }
+
+      .spin_subtitle_2_mb{
+        margin-top: 1%;
+        margin-bottom: 2%;
+        font-family:'SUNFLOWER', sans-serif;
+        font-size: clamp(12px, 5vw, 26px);
+        
+        color: #f9f5ff;
+        line-height: 1.5;
+    }
+    .spin_subtitle_3_mb{
+        margin-top: 4%;
+        font-family:'SUNFLOWER',sans-serif;
+        font-size: clamp(12px, 5.5vw, 32px);
+        color: #f9f5ff;
+        line-height: 1.5;
+        
+    }
+    .spin_paragraph_mb{
+        margin-top: -3%;
+        font-family: 'SUNFLOWER',sans-serif;
+        font-size: 17px;
+        font-size: clamp(12px, 4vw, 15px);
+        color: #f9f5ff;
+        line-height: 1.9;
+    }
+
+    /*button animation*/
+    .link_mb {
+        display: inline-block;
+        font-size: 16px;
+        text-decoration: none;
+        color: #f9f5ff;
+        background: linear-gradient(180deg, #6a64be, #263b57);
+        padding: 10px 20px;
+        padding-bottom: 3%;
+        border-radius: 10px;
+        margin-bottom: 3%;
+        animation-name: zoominout;
+        animation-duration:1.5s;
+        animation-iteration-count:infinite;
+        z-index: 5;
+      }
+      
+      @-webkit-keyframes zoominout {
+        0% {
+          -webkit-transform: scale(2);
+          -moz-transform: scale(2);
+          -ms-transform: scale(2);
+          -o-transform: scale(2);
+          transform: scale(2);
+        }
+        20% {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+        30% {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+        35% {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+      }
+      @keyframes zoominout {
+        0% {
+          -webkit-transform: scale(2);
+          -moz-transform: scale(2);
+          -ms-transform: scale(2);
+          -o-transform: scale(2);
+          transform: scale(1);
+      
+        }
+        20% {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+        30% {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+        35% {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+        100% {
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+        }
+      } 
+
+    /* -------------------------------- */
+    
+    
+
+    @media (max-width: 1080px) {
+        body {
+            overflow: auto;
+        }
+
+        .pc-model {
+            display: none;
+        }
+
+        .mb-model {
+            display: block;
+        }
+    }
